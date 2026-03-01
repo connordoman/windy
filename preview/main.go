@@ -59,7 +59,7 @@ func main() {
 	overlaps := []string{}
 	windy.ForEachShadeByFamily(func(family windy.TailwindFamily, color windy.TailwindColor, shade string) {
 		windy4.ForEachShadeByFamily(func(v4Family windy4.TailwindFamily, v4Color windy4.TailwindColor, v4Shade string) {
-			if string(color) == v4Color.ToHex() {
+			if string(family) == string(v4Family) && shade == v4Shade && string(color) == v4Color.ToHex() {
 				fg := windy.Neutral100.Glossy()
 				if s, err := strconv.Atoi(v4Shade); err == nil && s < 500 {
 					fg = windy.Neutral700.Glossy()
