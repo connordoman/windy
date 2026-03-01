@@ -4,10 +4,7 @@ Tailwind CSS color definitions for your Go applications.
 
 <img width="1439" height="1407" alt="Screenshot 2026-02-28 at 23 53 24" src="https://github.com/user-attachments/assets/ccee561c-d821-489f-91b1-e92544e0089b" />
 
-Windy supports Tailwind V3 and V4, making it easier than ever to kickstart your app's theme.
-
-> [!NOTE]
-> You can use both V3 and V4 colors directly in your full color terminal apps. Windy derives its colors directly from `tailwindcss/colors` and provides convenient format conversions.
+Windy supports Tailwind V3 and V4. Colors come directly from `tailwindcss/colors` and Windy provides convenient format conversions, making it easier than ever to jumpstart your app's theme.
 
 ## Windy :heart: [Lip Gloss](https://github.com/charmbracelet/lipgloss)
 
